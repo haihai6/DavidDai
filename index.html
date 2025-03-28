@@ -1,8 +1,100 @@
-<p>Hello 大家好</p>
-<p>我是霸都丶傲天，这是我的个人网站。 </p>
-<p>很高兴你来到这里, 你可以在以下的网站找到我</p>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>霸都丶傲天 - 个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .links a {
+            color: #0066cc;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        .game-section {
+            display: flex;
+            align-items: center;
+        }
+        .game-image {
+            width: 200px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <!-- 替换为你的个人照片链接 -->
+        <img src="https://via.placeholder.com/150" alt="个人头像" class="profile-image">
+        <div>
+            <h1>霸都丶傲天</h1>
+            <p>热爱游戏开发的程序员，专注于Unity游戏设计与开发</p>
+        </div>
+    </div>
 
-<ul>
-  <li> <a href="https://www.zhihu.com/people/AJLoveChina">知乎</a> </li>
-  <li> <a href="http://hejie.nigeerhuo.com">我的博客(已经不更细了,现在在知乎写文章)</a> </li>
-</ul>
+    <div class="section">
+        <h2>关于我</h2>
+        <p>
+            我是一名热爱游戏开发的程序员，擅长使用Unity引擎创作有趣的游戏。
+            我相信通过游戏，我们可以讲述精彩的故事，创造独特的交互体验。
+            除了编程，我还喜欢研究游戏设计理论和玩各种类型的游戏。
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>我的游戏项目</h2>
+        <div class="game-section">
+            <!-- 替换为你游戏的实际图片 -->
+            <img src="https://via.placeholder.com/200" alt="游戏封面" class="game-image">
+            <div>
+                <h3>我的第一款游戏</h3>
+                <p>
+                    这是我使用Unity开发的第一款游戏。游戏类型是2D平台动作游戏，
+                    玩家需要通过跳跃和战斗来通关。在开发过程中，我学习了许多游戏开发技术。
+                </p>
+                <div>
+                    <a href="#" target="_blank">游戏视频</a>
+                    <a href="#" target="_blank">游戏下载</a>
+                    <a href="#" target="_blank">项目源代码</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section links">
+        <h2>在线联系方式</h2>
+        <a href="https://www.zhihu.com/people/AJLoveChina" target="_blank">知乎</a>
+        <a href="http://hejie.nigeerhuo.com" target="_blank">个人博客</a>
+        <a href="#" target="_blank">GitHub</a>
+    </div>
+</body>
+</html>
