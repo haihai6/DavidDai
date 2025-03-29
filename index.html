@@ -11,14 +11,14 @@
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f0f2f5; /* 更柔和的背景色 */
+            background-color: #e8ecf0; /* 更明显的页面底色 */
             color: #333;
         }
         .profile {
             display: flex;
             align-items: center;
             margin-bottom: 30px;
-            background-color: #ffffff;
+            background-color: #d4e6f1; /* 个人资料区块底色 - 浅蓝色 */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -29,18 +29,17 @@
             border-radius: 50%;
             margin-right: 20px;
             object-fit: cover;
-            border: 3px solid #e6e9ed; /* 添加边框 */
+            border: 3px solid #ffffff; /* 白色边框 */
         }
         .section {
-            background-color: white;
+            background-color: #ffffff; /* 保持白色背景，与其他区块形成对比 */
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            border-top: 4px solid #0066cc; /* 添加顶部边框，增加设计感 */
         }
         h1, h2 {
-            color: #2c3e50; /* 更深的标题颜色 */
+            color: #2c3e50;
         }
         .links a {
             color: #0066cc;
@@ -56,18 +55,24 @@
             margin-bottom: 30px;
             border-bottom: 1px solid #eee;
             padding-bottom: 20px;
-            background-color: #fafafa; /* 项目卡片的微妙背景 */
+            background-color: #edf7ff; /* 项目卡片蓝色底色 */
             padding: 15px;
             border-radius: 6px;
         }
         .game-project:last-child {
             border-bottom: none;
         }
+        .game-project:nth-child(odd) {
+            background-color: #edf7ff; /* 奇数项目蓝色 */
+        }
+        .game-project:nth-child(even) {
+            background-color: #f0f5e6; /* 偶数项目浅绿色 */
+        }
         .game-image {
             width: 220px;
             margin-right: 20px;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 为图片添加轻微阴影 */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         .game-info h3 {
             margin-top: 0;
@@ -82,12 +87,13 @@
             color: #0066cc;
             text-decoration: none;
             padding: 5px 10px;
-            background-color: #e6f7ff; /* 链接按钮背景 */
+            background-color: #ffffff; /* 白色按钮背景 */
             border-radius: 4px;
             transition: background-color 0.2s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
         .game-links a:hover {
-            background-color: #cce8ff;
+            background-color: #e6f2ff;
         }
         .email {
             font-weight: bold;
@@ -100,7 +106,7 @@
         }
         .about-text {
             flex: 1;
-            background-color: #fafafa; /* 文本背景 */
+            background-color: #f5f5f5; /* 浅灰色背景 */
             padding: 15px;
             border-radius: 6px;
         }
@@ -108,7 +114,10 @@
             width: 300px;
             border-radius: 8px;
             margin-top: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 图片阴影 */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact {
+            background-color: #e8f4f8; /* 联系区块底色 - 浅蓝绿色 */
         }
         @media (max-width: 768px) {
             .about-content {
@@ -218,7 +227,7 @@
         </div>
     </div>
 
-    <div class="section links">
+    <div class="section links contact">
         <h2>Contact</h2>
         <p>Email: <span class="email">daihaifeng6@gmail.com</span></p>
     </div>
