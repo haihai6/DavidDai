@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>霸都丶傲天 - 个人主页</title>
+    <title>David Dai - Game Designer Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
             background-color: #f4f4f4;
+            color: #333;
         }
         .profile {
             display: flex;
@@ -38,63 +39,135 @@
         .links a {
             color: #0066cc;
             text-decoration: none;
-            margin-right: 10px;
+            margin-right: 15px;
         }
-        .game-section {
+        .game-project {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .game-project:last-child {
+            border-bottom: none;
         }
         .game-image {
-            width: 200px;
+            width: 220px;
             margin-right: 20px;
             border-radius: 8px;
+        }
+        .game-info h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        .game-links {
+            margin-top: 10px;
+        }
+        .game-links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #0066cc;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <div class="profile">
-        <!-- 替换为你的个人照片链接 -->
-        <img src="https://via.placeholder.com/150" alt="个人头像" class="profile-image">
+        <!-- Replace with your actual photo link -->
+        <img src="https://via.placeholder.com/150" alt="Profile Photo" class="profile-image">
         <div>
-            <h1>霸都丶傲天</h1>
-            <p>热爱游戏开发的程序员，专注于Unity游戏设计与开发</p>
+            <h1>David Dai</h1>
+            <p>Senior Game Designer, specialized in gameplay design and level creation</p>
         </div>
     </div>
 
     <div class="section">
-        <h2>关于我</h2>
+        <h2>About Me</h2>
         <p>
-            我是一名热爱游戏开发的程序员，擅长使用Unity引擎创作有趣的游戏。
-            我相信通过游戏，我们可以讲述精彩的故事，创造独特的交互体验。
-            除了编程，我还喜欢研究游戏设计理论和玩各种类型的游戏。
+            I am a passionate game designer with expertise in gameplay experience, level design, and narrative creation.
+            I believe that exceptional game design can deliver memorable experiences and emotional connections for players.
+            I closely follow the latest industry trends and continuously improve my design philosophy and skills.
         </p>
     </div>
 
     <div class="section">
-        <h2>我的游戏项目</h2>
-        <div class="game-section">
-            <!-- 替换为你游戏的实际图片 -->
-            <img src="https://via.placeholder.com/200" alt="游戏封面" class="game-image">
-            <div>
-                <h3>我的第一款游戏</h3>
+        <h2>My Projects</h2>
+        
+        <div class="game-project">
+            <!-- Project 1: Replace with actual image -->
+            <img src="https://via.placeholder.com/220" alt="Project 1 Cover" class="game-image">
+            <div class="game-info">
+                <h3>Project One</h3>
                 <p>
-                    这是我使用Unity开发的第一款游戏。游戏类型是2D平台动作游戏，
-                    玩家需要通过跳跃和战斗来通关。在开发过程中，我学习了许多游戏开发技术。
+                    An action-adventure game where I served as a core designer. I was responsible for main storyline design, 
+                    level pacing, and game balance adjustments. I designed diverse combat systems and progressive challenges 
+                    to ensure players continuously experience fresh content throughout their journey.
                 </p>
-                <div>
-                    <a href="#" target="_blank">游戏视频</a>
-                    <a href="#" target="_blank">游戏下载</a>
-                    <a href="#" target="_blank">项目源代码</a>
+                <div class="game-links">
+                    <a href="#" target="_blank">Game Trailer</a>
+                    <a href="#" target="_blank">Project Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-project">
+            <!-- Project 2: Replace with actual image -->
+            <img src="https://via.placeholder.com/220" alt="Project 2 Cover" class="game-image">
+            <div class="game-info">
+                <h3>Project Two</h3>
+                <p>
+                    Dungeon design for a multiplayer online role-playing game. I designed ten unique dungeons featuring 
+                    puzzles, team collaboration challenges, and special mechanics. Through carefully crafted level progression 
+                    and difficulty curves, we significantly improved player engagement and retention rates.
+                </p>
+                <div class="game-links">
+                    <a href="#" target="_blank">Design Documents</a>
+                    <a href="#" target="_blank">Gameplay Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-project">
+            <!-- Project 3: Replace with actual image -->
+            <img src="https://via.placeholder.com/220" alt="Project 3 Cover" class="game-image">
+            <div class="game-info">
+                <h3>Project Three</h3>
+                <p>
+                    A mobile casual game where I led core gameplay design and level progression systems. By balancing 
+                    game difficulty and reward mechanisms, we successfully increased daily active users and conversion rates. 
+                    The game received positive market response after launch.
+                </p>
+                <div class="game-links">
+                    <a href="#" target="_blank">App Store Link</a>
+                    <a href="#" target="_blank">Gameplay Footage</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-project">
+            <!-- Project 4: Replace with actual image -->
+            <img src="https://via.placeholder.com/220" alt="Project 4 Cover" class="game-image">
+            <div class="game-info">
+                <h3>Project Four</h3>
+                <p>
+                    An independently developed narrative adventure game where I served as lead designer responsible for 
+                    story development, character creation, and dialogue systems. The game offers highly flexible gameplay 
+                    experiences and rich story branches through non-linear storytelling and multiple endings.
+                </p>
+                <div class="game-links">
+                    <a href="#" target="_blank">Development Blog</a>
+                    <a href="#" target="_blank">Demo Download</a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="section links">
-        <h2>在线联系方式</h2>
-        <a href="https://www.zhihu.com/people/AJLoveChina" target="_blank">知乎</a>
-        <a href="http://hejie.nigeerhuo.com" target="_blank">个人博客</a>
+        <h2>Contact & Social Media</h2>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">Portfolio</a>
         <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">Twitter</a>
     </div>
 </body>
 </html>
