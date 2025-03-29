@@ -11,13 +11,17 @@
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5; /* 更柔和的背景色 */
             color: #333;
         }
         .profile {
             display: flex;
             align-items: center;
             margin-bottom: 30px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .profile-image {
             width: 150px;
@@ -25,6 +29,7 @@
             border-radius: 50%;
             margin-right: 20px;
             object-fit: cover;
+            border: 3px solid #e6e9ed; /* 添加边框 */
         }
         .section {
             background-color: white;
@@ -32,14 +37,18 @@
             margin-bottom: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-top: 4px solid #0066cc; /* 添加顶部边框，增加设计感 */
         }
         h1, h2 {
-            color: #333;
+            color: #2c3e50; /* 更深的标题颜色 */
         }
         .links a {
             color: #0066cc;
             text-decoration: none;
             margin-right: 15px;
+        }
+        .links a:hover {
+            text-decoration: underline;
         }
         .game-project {
             display: flex;
@@ -47,6 +56,9 @@
             margin-bottom: 30px;
             border-bottom: 1px solid #eee;
             padding-bottom: 20px;
+            background-color: #fafafa; /* 项目卡片的微妙背景 */
+            padding: 15px;
+            border-radius: 6px;
         }
         .game-project:last-child {
             border-bottom: none;
@@ -55,6 +67,7 @@
             width: 220px;
             margin-right: 20px;
             border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 为图片添加轻微阴影 */
         }
         .game-info h3 {
             margin-top: 0;
@@ -68,9 +81,17 @@
             margin-right: 10px;
             color: #0066cc;
             text-decoration: none;
+            padding: 5px 10px;
+            background-color: #e6f7ff; /* 链接按钮背景 */
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        .game-links a:hover {
+            background-color: #cce8ff;
         }
         .email {
             font-weight: bold;
+            color: #0066cc;
         }
         .about-content {
             display: flex;
@@ -79,11 +100,15 @@
         }
         .about-text {
             flex: 1;
+            background-color: #fafafa; /* 文本背景 */
+            padding: 15px;
+            border-radius: 6px;
         }
         .about-image {
             width: 300px;
             border-radius: 8px;
             margin-top: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 图片阴影 */
         }
         @media (max-width: 768px) {
             .about-content {
@@ -165,4 +190,37 @@
                 <h3>Project Three</h3>
                 <p>
                     A mobile casual game where I led core gameplay design and level progression systems. By balancing 
-                    game difficulty and reward mechanisms, we successfully increased daily active users and conve
+                    game difficulty and reward mechanisms, we successfully increased daily active users and conversion rates. 
+                    The game received positive market response after launch.
+                </p>
+                <div class="game-links">
+                    <a href="#" target="_blank">App Store Link</a>
+                    <a href="#" target="_blank">Gameplay Footage</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-project">
+            <!-- Project 4: Replace with actual image -->
+            <img src="project4.jpg" alt="Project 4 Cover" class="game-image">
+            <div class="game-info">
+                <h3>Project Four</h3>
+                <p>
+                    An independently developed narrative adventure game where I served as lead designer responsible for 
+                    story development, character creation, and dialogue systems. The game offers highly flexible gameplay 
+                    experiences and rich story branches through non-linear storytelling and multiple endings.
+                </p>
+                <div class="game-links">
+                    <a href="#" target="_blank">Development Blog</a>
+                    <a href="#" target="_blank">Demo Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section links">
+        <h2>Contact</h2>
+        <p>Email: <span class="email">daihaifeng6@gmail.com</span></p>
+    </div>
+</body>
+</html>
